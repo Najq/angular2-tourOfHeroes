@@ -1,0 +1,44 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\nq16495\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'start' ]
+2 info using npm@5.4.2
+3 info using node@v6.11.3
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle angular-quickstart@1.0.0~prestart: angular-quickstart@1.0.0
+6 verbose lifecycle angular-quickstart@1.0.0~prestart: unsafe-perm in lifecycle true
+7 verbose lifecycle angular-quickstart@1.0.0~prestart: PATH: C:\Users\nq16495\AppData\Roaming\npm\node_modules\npm\bin\node-gyp-bin;C:\Quickstart\quickstart\node_modules\.bin;C:\Users\nq16495\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\nq16495\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files\Autonomy\Connected BackupPC;C:\Program Files (x86)\Autonomy\Connected BackupPC;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files\dotnet;C:\Program Files\SourceGear\Common\DiffMerge;C:\Program Files\Git\cmd;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0;C:\Program Files\Microsoft SQL Server\110\Tools\Binn;C:\Program Files (x86)\Collaborator Client;C:\Program Files\Microsoft\Web Platform Installer;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit;C:\Program Files\nodejs;C:\Program Files\TortoiseGit\bin;C:\Python27;C:\Python27\Lib;C:\Python27\DLLs;C:\Python27\Lib\lib-tk; ;C:\Program Files (x86)\Sennheiser\SoftphoneSDK;C:\Users\nq16495\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+8 verbose lifecycle angular-quickstart@1.0.0~prestart: CWD: C:\Quickstart\quickstart
+9 silly lifecycle angular-quickstart@1.0.0~prestart: Args: [ '/d /s /c', 'npm run build' ]
+10 silly lifecycle angular-quickstart@1.0.0~prestart: Returned: code: 0  signal: null
+11 info lifecycle angular-quickstart@1.0.0~start: angular-quickstart@1.0.0
+12 verbose lifecycle angular-quickstart@1.0.0~start: unsafe-perm in lifecycle true
+13 verbose lifecycle angular-quickstart@1.0.0~start: PATH: C:\Users\nq16495\AppData\Roaming\npm\node_modules\npm\bin\node-gyp-bin;C:\Quickstart\quickstart\node_modules\.bin;C:\Users\nq16495\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\nq16495\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files\Autonomy\Connected BackupPC;C:\Program Files (x86)\Autonomy\Connected BackupPC;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files\dotnet;C:\Program Files\SourceGear\Common\DiffMerge;C:\Program Files\Git\cmd;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0;C:\Program Files\Microsoft SQL Server\110\Tools\Binn;C:\Program Files (x86)\Collaborator Client;C:\Program Files\Microsoft\Web Platform Installer;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit;C:\Program Files\nodejs;C:\Program Files\TortoiseGit\bin;C:\Python27;C:\Python27\Lib;C:\Python27\DLLs;C:\Python27\Lib\lib-tk; ;C:\Program Files (x86)\Sennheiser\SoftphoneSDK;C:\Users\nq16495\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+14 verbose lifecycle angular-quickstart@1.0.0~start: CWD: C:\Quickstart\quickstart
+15 silly lifecycle angular-quickstart@1.0.0~start: Args: [ '/d /s /c',
+15 silly lifecycle   'concurrently "npm run build:watch" "npm run serve"' ]
+16 silly lifecycle angular-quickstart@1.0.0~start: Returned: code: 1  signal: null
+17 info lifecycle angular-quickstart@1.0.0~start: Failed to exec start script
+18 verbose stack Error: angular-quickstart@1.0.0 start: `concurrently "npm run build:watch" "npm run serve"`
+18 verbose stack Exit status 1
+18 verbose stack     at EventEmitter.<anonymous> (C:\Users\nq16495\AppData\Roaming\npm\node_modules\npm\node_modules\npm-lifecycle\index.js:280:16)
+18 verbose stack     at emitTwo (events.js:106:13)
+18 verbose stack     at EventEmitter.emit (events.js:191:7)
+18 verbose stack     at ChildProcess.<anonymous> (C:\Users\nq16495\AppData\Roaming\npm\node_modules\npm\node_modules\npm-lifecycle\lib\spawn.js:55:14)
+18 verbose stack     at emitTwo (events.js:106:13)
+18 verbose stack     at ChildProcess.emit (events.js:191:7)
+18 verbose stack     at maybeClose (internal/child_process.js:920:16)
+18 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:230:5)
+19 verbose pkgid angular-quickstart@1.0.0
+20 verbose cwd C:\Quickstart\quickstart
+21 verbose Windows_NT 6.1.7601
+22 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\nq16495\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "start"
+23 verbose node v6.11.3
+24 verbose npm  v5.4.2
+25 error code ELIFECYCLE
+26 error errno 1
+27 error angular-quickstart@1.0.0 start: `concurrently "npm run build:watch" "npm run serve"`
+27 error Exit status 1
+28 error Failed at the angular-quickstart@1.0.0 start script.
+28 error This is probably not a problem with npm. There is likely additional logging output above.
+29 verbose exit [ 1, true ]
